@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_app/containts/app_containts.dart';
 
-class CallsPage extends StatelessWidget {  @override
+class CallsPage extends StatelessWidget
+{  @override
   Widget build(BuildContext context)
 {
       return Scaffold(
@@ -70,6 +71,12 @@ class CallsPage extends StatelessWidget {  @override
                   }),
               )
           ],),
+        ),
+        floatingActionButton: FloatingActionButton(onPressed: (){},
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+          child: Icon(Icons.add_call,size: 30,),
+          backgroundColor: Colors.green,
+          foregroundColor: Colors.white,elevation: 11,
         ),
       );
 

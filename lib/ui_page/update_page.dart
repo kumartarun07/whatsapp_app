@@ -100,6 +100,21 @@ class _UpdatePageState extends State<UpdatePage>
           ],
         ),
       ),
+        floatingActionButton: Column(mainAxisAlignment: MainAxisAlignment.end,
+          children: [
+            FloatingActionButton(onPressed: (){},
+              backgroundColor: Colors.white,
+              child:Icon(Icons.edit),
+            ),
+            SizedBox(height: 20,),
+            FloatingActionButton(onPressed: (){},
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
+              child: Icon(Icons.camera_alt,size: 30,),
+              backgroundColor: Colors.green,
+              foregroundColor: Colors.white,elevation: 11,
+            )
+          ],
+        ),
       );
   }
 

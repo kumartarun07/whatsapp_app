@@ -13,8 +13,8 @@ class NavigatorPage extends StatefulWidget
 class _NavigatorPageState extends State<NavigatorPage>
 {
 
-int selectedIndex=0;
-List<Widget>navPage =
+    int selectedIndex=0;
+    List<Widget>navPage =
           [
             HomePage(),
             UpdatePage(),

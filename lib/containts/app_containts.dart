@@ -1,10 +1,6 @@
-
-import 'dart:math';
-
-import 'package:flutter/material.dart';
-
 class AppContaints
 {
+  static int SelectedIndex = -1;
   static final List<Map<String,dynamic>>home=
       [
         {'Name':'Abhitabh Bacchan',
